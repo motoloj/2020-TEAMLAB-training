@@ -6,14 +6,22 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	display: table;
 }
 
 aside {
 	background-color: pink;
 	/* TODO: 이 곳을 채우세요! */
+	width: 200px;
+	display: table-cell;
 }
 
 .main {
 	background-color: skyblue;
 	/* TODO: 이 곳을 채우세요! */
+	display: table-cell;
+}
+.main,
+.aside {
+	vertical-align: top;
 }

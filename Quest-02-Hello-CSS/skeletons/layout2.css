@@ -6,19 +6,26 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	display: table;
 }
 
 .main {
 	background-color: skyblue;
 	/* TODO: 이 곳을 채우세요! */
+	display: table-cell;
+	
 }
 
 .left {
 	background-color: pink;
 	/* TODO: 이 곳을 채우세요! */
+	display: table-cell;
+	width: 200px;
 }
 
 .right {
 	background-color: greenyellow;
 	/* TODO: 이 곳을 채우세요! */
+	display: table-cell;
+	width: 300px;
 }
