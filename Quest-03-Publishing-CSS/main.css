@@ -1,0 +1,346 @@
+@font-face{
+    font-family: 'octicons';
+    src: url(octicons.ttf) format('truetype');
+    
+}
+/*<!--font-style:normal;-->
+<!--font-weight:normal;-->*/
+[data-icon]:before{
+    font-family: octicons;
+    content: attr(data-icon);
+    
+}
+* {
+    font-family: octicons;
+    
+}
+a{
+    text-decoration: none;
+}
+.top-menu{
+    margin-left: 13%;
+    display: flex; 
+    height:100%;
+    width: 70%;
+   
+}
+.github-logo{
+    font-size: 40px;
+    width: 15%;
+    height:100%;
+    
+}
+#header{
+    background-color: #F5F5F5;
+    height:100%;
+    width: 100%;
+    padding-left: 15px;
+    padding: 13px;
+    
+}
+.searchbar{
+    display:inline-block;
+    border: 1px solid #dfdfdf;
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    height:100%;
+    
+}
+.box{
+    margin-left:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height:20px;
+    width: 130px;
+    bottom:10px;
+    
+    border-radius:5px;
+    background-color: #F5F5F5;
+    font-size:15px;
+    color: rgb(128, 128, 128);
+    display: inline-block;
+
+    padding-top:7px;
+    padding-bottom:7px;
+    text-align: center;
+}
+#search{
+    
+    height:35px;
+    position:relative;
+    border-radius:5px;
+    border: 0px solid white;
+    width: 200px;
+}
+nav {
+    display: inline;
+    position: relative;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    width: 35%;
+    height:100%;
+}
+.top-center-menu > li{
+    margin: 0px 10px 0px 10px;
+    font-weight: bold; 
+}
+/*<!--top right bottom left-->*/
+ul li{
+    display: inline;
+}
+.sign-button{
+    
+    display: inline-block;
+    width: 20%;
+    height:100%;
+}
+#repository{
+    
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height:100%;
+    width: 100%;
+    padding: 15px;
+   
+}
+.repository{
+    width: 70%;
+    margin: auto;
+    display: flex; 
+}
+.main-repo{
+    display: inline-block;
+    
+    width:70%;
+    height: 100%;
+    position: relative;
+}
+.side-repo{
+    display: inline-block;
+    
+    width:29%;
+    height: 100%;
+    position: relative;
+    
+}
+.btn{
+    border: 1px solid #D5D5D5;
+    border-radius: 3px;
+	background-image: linear-gradient(#EEE, #DDD);
+	font: 700 13px/18px Helvetica, arial;
+}
+.btn, .btn-num{
+    display: inline-block;
+}
+.btn-watch, .btn-star, .btn-fork{
+    display: inline-block;
+    border: 1px solid #D5D5D5;
+    border-radius: 3px;
+    
+}
+.green-button{
+    align-self: right;
+    font: 700 13px/18px Helvetica, arial;
+    padding: 10px;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    
+    color: #FFF;
+	background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+	border-color: #4A993E;
+    
+}
+.gray-button{
+    align-self: right;
+    background:linear-gradient(to bottom, #efefef 5%, #f8f8f8 100%);
+    font-size: 15px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid #D5D5D5;
+	background-image: linear-gradient(#EEE, #DDD);
+	font: 700 13px/18px Helvetica, arial;
+    
+}
+#main{
+    margin: auto;
+    display: flex; 
+    width: 70%;
+    height: 100%;
+    
+}
+
+.left-main{
+    
+    width: 75%;
+    height: 100%;
+    
+    
+}
+.right-menu{
+    margin-left: 10px;
+    width:19%;
+    height: 100%;
+    
+    float: right;
+}
+.repo-tittle{
+    font-size: 22px;
+}
+.repo-table{
+    width: 100%;
+    border: none;
+    border-bottom: none;
+}
+.repo-menu{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-bottom: 7px  solid #F1E05A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 19px;
+    
+}
+.branch, .workspace, .readme{
+    border: 0.5px solid grey;
+    border-radius: 2px;
+}
+.menu{
+    height: 18%;
+}
+.branch{
+    height: 9%;
+}
+.btn-branch{
+    display: inline-block;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #FFF;
+    width: 40px;
+    height: 30px;
+	background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+	border-color: #4A993E;
+	font:  16px Helvetica, arial; 
+}
+.btn-branch-year{
+    display: inline-block;
+    border-radius: 3px;
+	padding: 7px 12px;
+	border: 1px solid #D5D5D5;
+    background-image: linear-gradient(#EEE, #DDD);
+    font: 700 13px/18px Helvetica, arial;
+}
+.btn-year, .pre-list,  .branch-name{
+    display: inline-block;
+}
+.branch-name{
+    color: blue;
+}
+.pre-list{
+    float: right;
+    border: 1px solid #D5D5D5;
+    background-image: linear-gradient(#EEE, #DDD);
+    border-radius: 3px;
+    width: 40px;
+    height: 30px;
+    font: 16px Helvetica, arial;
+
+}
+.workspace{
+    height: 36%;
+}
+.readme{
+    height: 36%;
+}
+.clone{
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: flex;
+    margin: auto;
+}
+.clone-box{
+    border-radius: 1px;
+}
+.clone-btn{
+    width: 40px;
+    height: 37px;
+    background-image: linear-gradient(#EEE, #DDD);
+    border-radius: 3px;
+}
+.clone-btn, .clone-box{
+    display: inline-block;
+}
+.clone-desktop, .download{
+   
+    background-image: linear-gradient(#EEE, #DDD);
+    border-radius: 3px;
+    width: 90%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 17px;
+}
+table {
+    border: 1px solid grey;
+    border-radius: 1px ;
+  }
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+/* code->li.active 고민 */
+.code{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;;
+    border-right: 1px solid gray;;
+    border-radius: 1px ;
+    padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 7px;
+
+} 
+.blank{
+    border-left: 1px solid gray;
+}
+.issue, .pull-request, .pulse, .graphs{
+    font-weight: bold;
+   background: white;
+   border-left: 1px solid gray;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 7px;
+   
+  
+    
+  }
+.code{
+    border-right: 7px solid #D26911;
+}
+
+#bottom {
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+	padding: 15px 0;
+
+	text-align: center;
+
+	
+
+	
+
+}
+.inc, .footer-link{
+    display: inline-block;
+}
+.terms, .privacy, .security, .contact, .help,
+.status, .api, .training, .shop, .blog, .about, .pricing{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
