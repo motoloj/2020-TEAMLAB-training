@@ -38,6 +38,7 @@ id속성은 어떤 요소에 대해 유일한 특성을 정의합니다. (HTML �
 
 * ttf의 아이콘을 유니코드로 출력시키는 방법:
 아래와 같은 코드를 css에서 작성
+* 유니코드 참조:https://www.dafontfree.net/freefonts-octicons-f145163.htm
 
 (1)`@font-face{
     font-family: 'octicons';
